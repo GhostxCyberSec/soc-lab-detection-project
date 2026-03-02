@@ -1,13 +1,1 @@
-SOC-Lab-Project/
-│
-├── README.md
-├── Architecture-Diagram.png
-├── Incident-Reports/
-│     ├── 
-│     ├── 
-│
-├── Detection-Rules/
-│     ├── 
-│     ├── 
-│
-└── Screenshots/
+Designed and implemented a virtual Security Operations Center (SOC) lab to simulate and detect common attack techniques using Wazuh SIEM and Sysmon.
