@@ -2,3 +2,21 @@
 
 ## Objective
 Designed and implemented a virtual Security Operations Center (SOC) lab to simulate and detect real-world attack techniques using Wazuh SIEM, Sysmon, and Kali Linux.
+
+## Environment
+- Windows 10 endpoint
+- Ubuntu Wazuh server
+- Kali Linux attacker
+
+## Attacks Simulated
+- Brute force login
+- Nmap reconnaissance
+- PowerShell execution
+
+## Detection Strategy
+Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
+
+## Skills Demonstrated
+- SIEM configuration
+- Threat detection
+- MITRE ATT&CK mapping
