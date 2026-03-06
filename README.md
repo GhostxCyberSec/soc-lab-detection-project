@@ -20,3 +20,8 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 - SIEM configuration
 - Threat detection
 - MITRE ATT&CK mapping
+
+## Logging Tools
+- Sysmon
+- Windows Event Logs
+- Wazuh agents
