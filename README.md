@@ -25,3 +25,7 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 - Sysmon
 - Windows Event Logs
 - Wazuh agents
+
+## Lab Architecture
+
+![SOC Lab Architecture](architecture/soc-lab-diagram.png)
