@@ -29,4 +29,4 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 ## Lab Architecture
 
 ![SOC Lab Architecture](architecture/soc-lab-diagram.png)
-Switched from Hydra to Crowbar due to RDP compatibility issues.
+--- Switched from Hydra to Crowbar due to RDP compatibility issues.
