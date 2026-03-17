@@ -4,7 +4,7 @@
 Designed and implemented a virtual Security Operations Center (SOC) lab to simulate and detect real-world attack techniques using Wazuh SIEM, Sysmon, and Kali Linux.
 
 ## Environment
-- Windows 10 endpoint
+- Windows 11 endpoint
 - Ubuntu Wazuh server
 - Kali Linux attacker
 
@@ -30,4 +30,4 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 
 ![SOC Lab Architecture](architecture/soc-lab-diagram.png)
 
-Switched from Hydra to Crowbar due to RDP compatibility issues.
+Switched from Hydra to Crowbar due to RDP compatibility issues. Also it is a Windows 11 endpoint, not Windows 10.
