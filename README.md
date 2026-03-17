@@ -30,4 +30,4 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 
 ![SOC Lab Architecture](architecture/soc-lab-diagram.png)
 
-Switched from Hydra to Crowbar due to RDP compatibility issues. Also it is a Windows 11 endpoint, not Windows 10.
+Switched from Hydra to xfreedp due to RDP compatibility issues. Also it is a Windows 11 endpoint, not Windows 10.
