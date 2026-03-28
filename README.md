@@ -14,7 +14,7 @@ Hydra was used to perform a brute force attack against RDP.
 
 hydra -l ghost -P passwords.txt -t 4 -V -f rdp://192.168.32.128
 
-(screenshots/hydrabruteforce.png)
+![Attack Output](screenshots/hydrabruteforce.png)
 ## Detection Strategy
 Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
 
