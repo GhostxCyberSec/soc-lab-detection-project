@@ -14,7 +14,7 @@ Designed and implemented a virtual Security Operations Center (SOC) lab to simul
 - PowerShell execution
 
 ## Detection Strategy
-Analyzed Windows Event IDs 4624 and Event Viewer logs.
+Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
 
 ## Skills Demonstrated
 - SIEM configuration
