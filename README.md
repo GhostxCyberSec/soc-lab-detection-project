@@ -28,6 +28,6 @@ Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
 
 ## Lab Architecture
 
-![SOC Lab Architecture](architecture/soc-lab-diagram.png)
+![SOC Lab Architecture](screenshots/soc-lab-diagram.png)
 
 It is a Windows 11 endpoint, not Windows 10. Also tool used is Event Viewer, not Sysmon.
