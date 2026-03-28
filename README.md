@@ -1,7 +1,7 @@
 # SOC Lab Detection Project
 
 ## Objective
-Designed and implemented a virtual Security Operations Center (SOC) lab to simulate and detect real-world attack techniques using Wazuh SIEM, Sysmon, and Kali Linux.
+Designed and implemented a virtual Security Operations Center (SOC) lab to simulate and detect real-world attack techniques using Wazuh SIEM, Event Viewer, and Kali Linux.
 
 ## Environment
 - Windows 11 endpoint
@@ -14,7 +14,7 @@ Designed and implemented a virtual Security Operations Center (SOC) lab to simul
 - PowerShell execution
 
 ## Detection Strategy
-Analyzed Windows Event IDs 4624 and Sysmon logs.
+Analyzed Windows Event IDs 4624 and Event Viewer logs.
 
 ## Skills Demonstrated
 - SIEM configuration
@@ -22,7 +22,7 @@ Analyzed Windows Event IDs 4624 and Sysmon logs.
 - MITRE ATT&CK mapping
 
 ## Logging Tools
-- Sysmon
+- Event Viewer
 - Windows Event Logs
 - Wazuh agents
 
