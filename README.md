@@ -7,13 +7,14 @@ Demonstrate real-world SOC analyst skills including attack simulation, log analy
 - **Attacker**: Kali Linux VM
 - **Target**: Windows 11 VM
 - **SIEM**: Ubuntu Wazuh server
-- **PRotocol**: RDP (Port 3389)
+- **Protocol**: RDP (Port 3389)
 
-## Attacks Simulated
-- Brute force login
-- Nmap reconnaissance
-- PowerShell execution
+## Attack Simulation
+Hydra was used to perform a brute force attack against RDP.
 
+hydra -l ghost -P passwords.txt -t 4 -V -f rdp://192.168.32.128
+
+(screenshots/hydrabruteforce.png)
 ## Detection Strategy
 Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
 
