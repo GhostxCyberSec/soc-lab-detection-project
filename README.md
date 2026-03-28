@@ -15,10 +15,12 @@ Hydra was used to perform a brute force attack against RDP.
 hydra -l ghost -P passwords.txt -t 4 -V -f rdp://192.168.32.128
 
 ![Attack Output](screenshots/hydrabruteforce.png)
-## Detection Strategy/Rules
-Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
+
+## Detection Rule
+Custom Wazuh rule created to detect brute force behavior:
 
 [Detection Rule](detection-rules/local_rules.xml)
+
 ![Detection Rule](screenshots/local_rules.png)
 ## Skills Demonstrated
 - SIEM configuration
