@@ -14,7 +14,7 @@ Designed and implemented a virtual Security Operations Center (SOC) lab to simul
 - PowerShell execution
 
 ## Detection Strategy
-Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
+Analyzed Windows Event IDs 4624 and Sysmon logs.
 
 ## Skills Demonstrated
 - SIEM configuration
@@ -30,4 +30,4 @@ Analyzed Windows Event IDs 4624, 4625 and Sysmon logs.
 
 ![SOC Lab Architecture](architecture/soc-lab-diagram.png)
 
-Switched from Hydra to ncrack due to RDP compatibility issues. Also it is a Windows 11 endpoint, not Windows 10.
+It is a Windows 11 endpoint, not Windows 10.
