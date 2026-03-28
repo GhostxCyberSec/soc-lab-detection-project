@@ -18,8 +18,8 @@ hydra -l ghost -P passwords.txt -t 4 -V -f rdp://192.168.32.128
 ## Detection Strategy/Rules
 Analyzed Windows Event IDs 4624, 4625, and Event Viewer logs.
 
-[Detection Rule](detection-rules/local_rules.png)
-![Detection Rule](screenshots-rules/local_rules.xml)
+[Detection Rule](detection-rules/local_rules.xml)
+![Detection Rule](screenshots-rules/local_rules.png)
 ## Skills Demonstrated
 - SIEM configuration
 - Threat detection
