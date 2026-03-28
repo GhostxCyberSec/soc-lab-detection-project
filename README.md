@@ -30,4 +30,4 @@ Analyzed Windows Event IDs 4624 and Event Viewer logs.
 
 ![SOC Lab Architecture](architecture/soc-lab-diagram.png)
 
-It is a Windows 11 endpoint, not Windows 10.
+It is a Windows 11 endpoint, not Windows 10. Also tool used is Event Viewer, not Sysmon.
