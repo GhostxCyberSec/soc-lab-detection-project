@@ -5,11 +5,14 @@ This project simulates a brute force attack against a Windows 11 system using Hy
 
 The goal is to demonstrate real-world SOC analyst skills including attack simulation, log analysis, and detection rule creation aligned with MITRE ATT&CK. 
 
-## Lab Environment
+## Lab Environment and Architecture
 - **Attacker**: Kali Linux VM
 - **Target**: Windows 11 VM
 - **SIEM**: Ubuntu Wazuh server
 - **Protocol**: RDP (Port 3389)
+![SOC Lab Architecture](screenshots/soc-lab-diagram.png)
+
+It is a Windows 11 endpoint, not Windows 10. Also tool used is Event Viewer, not Sysmon.
 
 ## Attack Simulation
 Hydra was used to perform a brute force attack against RDP.
@@ -33,18 +36,15 @@ Custom Wazuh rule created to detect brute force behavior:
 [Detection Rule](detection-rules/local_rules.xml)
 
 ![DetectionRule](screenshots/local_rules.png)
-## Skills Demonstrated
-- SIEM configuration
-- Threat detection
-- MITRE ATT&CK mapping
 
-## Logging Tools
-- Event Viewer
-- Windows Event Logs
-- Wazuh agents
+## MITRE ATT&CK Mapping, Query Used, and Alert Result
+- T1110 - Brute Force
+- data.win.system.eventID:4625
+The rule triggered after multiple failed login attempts from the same source IP.
 
-## Lab Architecture
+![wazuhalert](screenshots/wazuhdetection.png)
 
-![SOC Lab Architecture](screenshots/soc-lab-diagram.png)
+## Key Takeaways
 
-It is a Windows 11 endpoint, not Windows 10. Also tool used is Event Viewer, not Sysmon.
+
+## 
