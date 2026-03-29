@@ -1,4 +1,4 @@
-# SOC Brute Force Detection Lab (Wazuh SIEM)
+# SOC Brute Force Detection (Wazuh SIEM)
 
 ## Overview
 This project simulates a brute force attack against a Windows 11 system using Hydra from Kali Linux and detects the activity using Wazuh SIEM.
