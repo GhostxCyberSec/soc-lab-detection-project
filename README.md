@@ -16,12 +16,21 @@ hydra -l ghost -P passwords.txt -t 4 -V -f rdp://192.168.32.128
 
 ![Attack Output](screenshots/hydrabruteforce.png)
 
+## Log Analysis
+Windows generated multiple failed login events and a successful login event.
+- **Event IDs**: 4625 (Failed Logon), 4624 (Successful Logon)
+- **Logon Type**: 10 (Remote Interactive/RDP), 3 (Network Connection)
+- **Source IP**: Kali Linux attacker
+
+![FailedLogon](screenshots/evfailed)
+![SuccessfulLogon](screenshots/evsuccess)
+
 ## Detection Rule
 Custom Wazuh rule created to detect brute force behavior:
 
 [Detection Rule](detection-rules/local_rules.xml)
 
-![Detection Rule](screenshots/local_rules.png)
+![DetectionRule](screenshots/local_rules.png)
 ## Skills Demonstrated
 - SIEM configuration
 - Threat detection
