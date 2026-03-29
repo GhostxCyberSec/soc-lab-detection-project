@@ -45,6 +45,7 @@ The rule triggered after multiple failed login attempts from the same source IP.
 ![wazuhalert](screenshots/wazuhdetection.png)
 
 ## Key Takeaways
-
-
-## 
+- Simulated real-world RDP brute force attack
+- Analyzed Windows authentication logs
+- Built custom SIEM detection rule
+- Validated alerting in Wazuh
