@@ -1,7 +1,8 @@
 # SOC Brute Force Detection Lab (Wazuh SIEM)
 
-## Objective
-Demonstrate real-world SOC analyst skills including attack simulation, log analysis, and detection rule creation aligned with MITRE ATT&CK. Done by simulating a brute force attack against a Windows 11 system using Hydra from Kali Linux and detects the activity using Wazuh SIEM.
+## Overview
+This project simulates a brute force attack against a Windows 11 system using Hydra from Kali Linux and detects the activity using Wazuh SIEM.
+The goal is to demonstrate real-world SOC analyst skills including attack simulation, log analysis, and detection rule creation aligned with MITRE ATT&CK. 
 
 ## Lab Environment
 - **Attacker**: Kali Linux VM
