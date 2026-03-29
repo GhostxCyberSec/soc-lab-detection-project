@@ -24,8 +24,8 @@ Windows generated multiple failed login events and a successful login event.
 - **Logon Type**: 10 (Remote Interactive/RDP), 3 (Network Connection)
 - **Source IP**: Kali Linux attacker
 
-![FailedLogon](screenshots/evfailed)
-![SuccessfulLogon](screenshots/evsuccess)
+![FailedLogon](screenshots/evfailed.png)
+![SuccessfulLogon](screenshots/evsuccess.png)
 
 ## Detection Rule
 Custom Wazuh rule created to detect brute force behavior:
