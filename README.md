@@ -51,5 +51,7 @@ The rule triggered after multiple failed login attempts from the same source IP.
 - Validated alerting in Wazuh
 
 
+
 Author: Michael Schwartz
+
 LinkedIn: https://www.linkedin.com/in/michael-schwartz-115a69221/
