@@ -10,6 +10,7 @@ The goal is to demonstrate real-world SOC analyst skills including attack simula
 - **Target**: Windows 11 VM
 - **SIEM**: Ubuntu Wazuh server
 - **Protocol**: RDP (Port 3389)
+
 ![SOC Lab Architecture](screenshots/soc-lab-diagram.png)
 It is a Windows 11 endpoint, not Windows 10. Also tool used is Event Viewer, not Sysmon.
 
